@@ -30,3 +30,7 @@ def read_item(item_id: int, q: str = None):
 @app.put("/items/{item_id}")
 def update_item(item_id: int, item: Item):
     return {"item_name": item.name, "item_id": item_id}
+
+@app.get("/neko/{neko_id}")
+def update_neko(neko_id:int):
+    return neko_id*10
