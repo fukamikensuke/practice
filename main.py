@@ -19,7 +19,7 @@ class Item(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"name": "test"}
+    return {"name": "yoshiurayuuki"}
 
 
 @app.get("/items/{item_id}")
