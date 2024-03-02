@@ -15,4 +15,4 @@ def read_item(item_id: int, q: str = None):
 
 @app.get("/name")
 def read_root():
-    return {"minamigawa, nishikawa,fukamikensuke"}
+    return {"minamigawa, nishikawa,fukami"}
